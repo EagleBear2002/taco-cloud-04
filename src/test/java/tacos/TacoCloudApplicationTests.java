@@ -8,9 +8,9 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @ExtendWith(SpringExtension.class) // <1>
 @SpringBootTest                 // <2>
 public class TacoCloudApplicationTests {
-
-  @Test                         // <3>
-  public void contextLoads() {
-  }
-
+	
+	@Test                         // <3>
+	public void contextLoads() {
+	}
+	
 }
