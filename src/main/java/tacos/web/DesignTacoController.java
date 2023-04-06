@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @Controller
 @RequestMapping("/design")
-@SessionAttributes("tacoOrder")
+@SessionAttributes("tacoOrder") // 会话过程中，tacoOrder 不丢失
 public class DesignTacoController {
 	
 	@ModelAttribute
